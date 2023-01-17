@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Надежда Бекетова](https://up.htmlacademy.ru/htmlcss/36/user/2223401).
-* Наставник: `Неизвестно`.
+* Наставник: `Виктория Никитина`(https://htmlacademy.ru/profile/id1217273/achievements).
 
 ---
 
