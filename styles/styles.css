@@ -1,0 +1,206 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.button {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #756157;
+}
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+}
+
+.welcome {
+  background-color: gray;
+  background-image: url("../image/decoration/mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.main-index {
+  text-align: center;
+}
+
+.advantage-geography,
+.service-sedona-text1,
+.seach-interest {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.advantage-text,
+.service-sedona-text2,
+.seach-description {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.advantages-title,
+.services-title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-description,
+.services-description {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0000);
+  overflow: hidden;
+}
+
+.newsletter {
+  text-align: center;
+}
+
+.newsletter {
+  background-image: url("../image/decoration/canion.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: white;
+}
+
+.contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: #242424;
+}
+
+.begin-filter {
+  color: #ffffff;
+  background-color: gray;
+  background-image: url("../image/decoration/fone-filter.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.breadcrumbs-link {
+  color: inherit;
+}
+
+.content-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.control-label {
+  line-height: 23px;
+}
+
+.sorting-section-found {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sorting-section-select-control {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.product-card-link {
+  text-decoration: none;
+}
+
+.product-card-title {
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.product-card-type,
+.product-card-price {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.pagination-link {
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.pagination-disabled {
+  background-color: #ffffff;
+  color: #000000;
+}
