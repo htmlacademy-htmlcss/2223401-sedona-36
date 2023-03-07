@@ -28,19 +28,17 @@
           </ul>
           <ul class="navigation-list navigation-user">
             <li class="navigation-item">
-              <a class="navigation-link" href="#">
+              <a class="navigation-link navigation-link-search" href="#">
                 <span class="visually-hidden">Поиск</span>
               </a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="#">
+              <a class="navigation-link navigation-link-favorite" href="#">
                 <span class="visually-hidden">Избранное</span>
-                <div class="navigation-favorite">
-                  <span class="favorite-text">12</span>
-                </div>
+                <span class="navigation-favorite">12</span>
               </a>
             </li>
-            <li class="navigation-item">
+            <li class="navigation-item navigation-item-current">
               <a class="button button-navigation" href="#">ХОЧУ СЮДА!</a>
             </li>
           </ul>
@@ -71,59 +69,65 @@
             <form class="content-filter" action="https://echo.htmlacademy.ru/" method="get"
               oninput="pricesinterval.value=pricescount.value">
               <fieldset class="content-filter-group">
-                <legend class="content-filter-title">Инраструктура</legend>
+                <legend class="content-filter-title">Инфраструктура:</legend>
                 <ul class="content-filter-list">
                   <li class="content-filter-item">
                     <label class="control">
-                      <input class="control-input" type="checkbox" name="swimming-pool" checked>
-                      Бассейн
+                      <input class="visually-hidden control-input" type="checkbox" name="swimming-pool" checked>
+                      <span class="control-mark"></span>
+                      <span class="control-label">Бассейн</span>
                     </label>
                   </li>
                   <li class="content-filter-item">
                     <label class="control">
-                      <input class="control-input" type="checkbox" name="parking-space" checked>
-                      Парковка
+                      <input class="visually-hidden control-input" type="checkbox" name="parking-space" checked>
+                      <span class="control-mark"></span>
+                      <span class="control-label">Парковка</span>
                     </label>
                   </li>
                   <li class="content-filter-item">
                     <label class="control">
-                      <input class="control-input" type="checkbox" name="wi-fi">
-                      Wi-Fi
+                      <input class="visually-hidden control-input" type="checkbox" name="wi-fi">
+                        <span class="control-mark"></span>
+                        <span class="control-label">Wi-Fi</span>
                     </label>
                   </li>
                 </ul>
               </fieldset>
               <fieldset class="content-filter-group">
-                <legend class="content-filter-title">Тип жилья</legend>
+                <legend class="content-filter-title">Тип Жилья:</legend>
                 <ul class="content-filter-list">
                   <li class="content-filter-item">
                     <label class="control">
-                      <input class="control-input" type="radio" name="filter-group" value="hotel" checked>
-                      Гостиница
+                      <input class="visually-hidden control-input" type="radio" name="filter-group" value="hotel" checked>
+                      <span class="control-mark"></span>
+                      <span class="control-label">Гостиница</span>
                     </label>
                   </li>
                   <li class="content-filter-item">
                     <label class="control">
-                      <input class="control-input" type="radio" name="filter-group" value="motel">
-                      Мотель
+                      <input class="visually-hidden control-input" type="radio" name="filter-group" value="motel">
+                      <span class="control-mark"></span>
+                      <span class="control-label">Мотель</span>
                     </label>
                   </li>
                   <li class="content-filter-item">
                     <label class="control">
-                      <input class="control-input" type="radio" name="filter-group" value="apartments">
-                      Апартаменты
+                      <input class="visually-hidden control-input" type="radio" name="filter-group" value="apartments">
+                      <span class="control-mark"></span>
+                      <span class="control-label">Апартаменты</span>
                     </label>
                   </li>
                 </ul>
               </fieldset>
               <fieldset class="catalog-price-range">
-                <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+                <legend class="catalog-price-range-title">Стоимость, ₽:</legend>
                 <div class="range">
-                  <lable class="range-from_field_text">
+                  <label class="range-from_field_text">
                     <input class="range-from_field" type="number" value="0">
                     <span>от</span>
                   </label>
-                  <lable class="range-from_field_text">
+                  <label class="range-from_field_text range-from_field_text-max">
                     <input class="range-from_field" type="number" value="9000">
                     <span>до</span>
                     </label>
@@ -152,11 +156,11 @@
           <div class="catalog-sorting">
             <p class="sorting-section-title">Найдено гостиниц: 38</p>
             <select class="sorting-section-select-control" aria-label="Сортировка" disabled>
-              <option value="cheap">Сначала дешевые</option>
-              <option value="expensive">Сначала дорогие</option>
+              <option class="sorting-text" value="cheap">Сначала дешевые</option>
+              <option class="sorting-text" value="expensive">Сначала дорогие</option>
             </select>
             <div class="location-goods">
-              <a href="#" class="card-grid-toggle" type="button">
+              <a href="#" class="card-grid-toggle card-grid-toggle-current" type="button">
                 <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_77781_52)">
                     <path d="M4 0H0V6H4V0Z" fill="#000000" />
