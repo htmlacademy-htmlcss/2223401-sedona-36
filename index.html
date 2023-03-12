@@ -2,13 +2,15 @@
 <html lang="ru">
 
   <head>
+    <link rel="icon" href="favicon-32x32.png">
     <link rel="stylesheet" href="styles/styles.css">
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
   </head>
-  <div class="page-container">
 
-    <body>
+
+  <body>
+    <div class="page-container">
       <header class="main-header">
         <nav class="navigation">
           <a class="navigation-logo-link" href="index.html">
@@ -61,7 +63,7 @@
           <ul class="advantages-list">
             <li class="advantages-item advantages-item-picture">
               <div class="advantages-item-container">
-                <h3 class="advantages-title">Настоящий городок</h3>
+                <h3 class="advantages-title advantages-title-picture">Настоящий городок</h3>
                 <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
               </div>
               <img class="advantages-item-img" src="./image/photo-1.jpg" width="800" height="384" alt="Администрация">
@@ -86,7 +88,7 @@
             </li>
             <li class="advantages-item advantages-item-picture advantages-item-picture-reverse">
               <div class="advantages-item-container">
-                <h3 class="advantages-title">Там есть мост дьявола</h3>
+                <h3 class="advantages-title advantages-title-picture">Там есть мост дьявола</h3>
                 <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
               </div>
               <img class="advantages-item-img" src="./image/photo-2.jpg" width="800" height="384" alt="Мост Дьявола">
@@ -117,7 +119,7 @@
                 <path d="M59.4317 47.2H56.4197V51.1H59.4317V47.2Z" fill="#83B3D3" />
               </svg>
               <h3 class="services-title">Жильё</h3>
-              <p class="services-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+              <p class="services-description">Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в кино!</p>
             </li>
             <li class="services-item">
               <svg width="76" height="72" viewBox="0 0 76 72" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -141,7 +143,7 @@
                   fill="#83B3D3" />
               </svg>
               <h3 class="services-title">Еда</h3>
-              <p class="services-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+              <p class="services-description">Всегда заказывайте<br> топовый фирменный бургер, вы не разочаруетесь!</p>
             </li>
             <li class="services-item">
               <svg width="76" height="76" viewBox="0 0 76 76" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -150,7 +152,7 @@
                   fill="#83B3D3" />
               </svg>
               <h3 class="services-title">Сувениры</h3>
-              <p class="services-description">Не только китайского, но и настоящего местного производства!</p>
+              <p class="services-description">Не только китайского,<br> но и настоящего местного производства!</p>
             </li>
           </ul>
         </section>
@@ -158,7 +160,7 @@
           <div class="search-item-block">
             <h2 class="visually-hidden">Поиск гостиницы</h2>
             <p class="search-interest">ЗАИНТЕРЕСОВАЛИСЬ?</p>
-            <p class="search-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
+            <p class="search-description">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения
               гостиниц в Седоне
             </p>
             <a class="button-search button" href="#">Поиск гостиницы в Седоне</a>
@@ -262,114 +264,174 @@
           </section>
         </div>
       </footer>
-      <div class="modal-container">
-        <div class="modal modal-search">
-          <button class="modal-close-button">
-            <span class="visually-hidden">Закрыть</span>
-          </button>
-          <section class="modal-content">
-            <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
-            <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
-              <p class="field-group">
-              <p class="field-group date-check-in">
-                <label class="search-form-text" for="text">Дата заезда:</label>
-                <input class="date-calendar" type="text" name="text" value="27 апреля 2020">
-                <svg class="date-calendar-icon" width="16" height="15" viewBox="0 0 16 15" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M5.75 10C6.05 10 6.25 9.8 6.25 9.5C6.25 9.2 6.05 9 5.75 9C5.45 9 5.25 9.2 5.25 9.5C5.25 9.8 5.45 10 5.75 10Z"
-                    fill="black" />
-                  <path
-                    d="M15 2H13V0H12V2H4V0H3V2H1C0.4 2 0 2.4 0 3V14C0 14.5 0.4 15 1 15H15C15.5 15 16 14.5 16 14V3C16 2.4 15.5 2 15 2ZM15 14H1V7H15V14ZM1 6V3H3V5H4V3H12V5H13V3H15V6H1Z"
-                    fill="black" />
-                  <path d="M8 10C8.3 10 8.5 9.8 8.5 9.5C8.5 9.2 8.3 9 8 9C7.7 9 7.5 9.2 7.5 9.5C7.5 9.8 7.7 10 8 10Z"
-                    fill="black" />
-                  <path
-                    d="M10.25 10C10.55 10 10.75 9.8 10.75 9.5C10.75 9.2 10.55 9 10.25 9C9.95 9 9.75 9.2 9.75 9.5C9.75 9.8 9.95 10 10.25 10Z"
-                    fill="black" />
-                  <path
-                    d="M5.75 11C5.45 11 5.25 11.2 5.25 11.5C5.25 11.8 5.45 12 5.75 12C6.05 12 6.25 11.8 6.25 11.5C6.25 11.2 6.05 11 5.75 11Z"
-                    fill="black" />
-                  <path d="M3.5 10C3.8 10 4 9.8 4 9.5C4 9.2 3.8 9 3.5 9C3.2 9 3 9.2 3 9.5C3 9.8 3.2 10 3.5 10Z"
-                    fill="black" />
-                  <path d="M3.5 11C3.2 11 3 11.2 3 11.5C3 11.8 3.2 12 3.5 12C3.8 12 4 11.8 4 11.5C4 11.2 3.8 11 3.5 11Z"
-                    fill="black" />
-                  <path
-                    d="M8 11C7.7 11 7.5 11.2 7.5 11.5C7.5 11.8 7.7 12 8 12C8.3 12 8.5 11.8 8.5 11.5C8.5 11.2 8.3 11 8 11Z"
-                    fill="black" />
-                  <path
-                    d="M10.25 11C9.95 11 9.75 11.2 9.75 11.5C9.75 11.8 9.95 12 10.25 12C10.55 12 10.75 11.8 10.75 11.5C10.75 11.2 10.55 11 10.25 11Z"
-                    fill="black" />
-                  <path
-                    d="M12.5 10C12.8 10 13 9.8 13 9.5C13 9.2 12.8 9 12.5 9C12.2 9 12 9.2 12 9.5C12 9.8 12.2 10 12.5 10Z"
-                    fill="black" />
-                  <path
-                    d="M12.5 11C12.2 11 12 11.2 12 11.5C12 11.8 12.2 12 12.5 12C12.8 12 13 11.8 13 11.5C13 11.2 12.8 11 12.5 11Z"
-                    fill="black" />
-                </svg>
+      <div class="modal-window">
+        <div class="modal-container">
+          <div class="modal modal-search">
+            <button class="modal-close-button">
+              <span class="visually-hidden">Закрыть</span>
+            </button>
+            <section class="modal-content">
+              <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+              <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+                <p class="field-search">
+                <p class="field-group">
+                  <label class="search-form-text date-check-in">Дата заезда:</label>
+                  <input class="date-calendar" type="text" name="text" placeholder="27 апреля 2020">
+                  <svg class="date-calendar-icon icon-top" width="16" height="15" viewBox="0 0 16 15" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M5.75 10C6.05 10 6.25 9.8 6.25 9.5C6.25 9.2 6.05 9 5.75 9C5.45 9 5.25 9.2 5.25 9.5C5.25 9.8 5.45 10 5.75 10Z"
+                      fill="black" />
+                    <path
+                      d="M15 2H13V0H12V2H4V0H3V2H1C0.4 2 0 2.4 0 3V14C0 14.5 0.4 15 1 15H15C15.5 15 16 14.5 16 14V3C16 2.4 15.5 2 15 2ZM15 14H1V7H15V14ZM1 6V3H3V5H4V3H12V5H13V3H15V6H1Z"
+                      fill="black" />
+                    <path d="M8 10C8.3 10 8.5 9.8 8.5 9.5C8.5 9.2 8.3 9 8 9C7.7 9 7.5 9.2 7.5 9.5C7.5 9.8 7.7 10 8 10Z"
+                      fill="black" />
+                    <path
+                      d="M10.25 10C10.55 10 10.75 9.8 10.75 9.5C10.75 9.2 10.55 9 10.25 9C9.95 9 9.75 9.2 9.75 9.5C9.75 9.8 9.95 10 10.25 10Z"
+                      fill="black" />
+                    <path
+                      d="M5.75 11C5.45 11 5.25 11.2 5.25 11.5C5.25 11.8 5.45 12 5.75 12C6.05 12 6.25 11.8 6.25 11.5C6.25 11.2 6.05 11 5.75 11Z"
+                      fill="black" />
+                    <path d="M3.5 10C3.8 10 4 9.8 4 9.5C4 9.2 3.8 9 3.5 9C3.2 9 3 9.2 3 9.5C3 9.8 3.2 10 3.5 10Z"
+                      fill="black" />
+                    <path
+                      d="M3.5 11C3.2 11 3 11.2 3 11.5C3 11.8 3.2 12 3.5 12C3.8 12 4 11.8 4 11.5C4 11.2 3.8 11 3.5 11Z"
+                      fill="black" />
+                    <path
+                      d="M8 11C7.7 11 7.5 11.2 7.5 11.5C7.5 11.8 7.7 12 8 12C8.3 12 8.5 11.8 8.5 11.5C8.5 11.2 8.3 11 8 11Z"
+                      fill="black" />
+                    <path
+                      d="M10.25 11C9.95 11 9.75 11.2 9.75 11.5C9.75 11.8 9.95 12 10.25 12C10.55 12 10.75 11.8 10.75 11.5C10.75 11.2 10.55 11 10.25 11Z"
+                      fill="black" />
+                    <path
+                      d="M12.5 10C12.8 10 13 9.8 13 9.5C13 9.2 12.8 9 12.5 9C12.2 9 12 9.2 12 9.5C12 9.8 12.2 10 12.5 10Z"
+                      fill="black" />
+                    <path
+                      d="M12.5 11C12.2 11 12 11.2 12 11.5C12 11.8 12.2 12 12.5 12C12.8 12 13 11.8 13 11.5C13 11.2 12.8 11 12.5 11Z"
+                      fill="black" />
+                  </svg>
+                </p>
+                <span class="date-calendar-text date-calendar-text-one">Мы не можем отправить вас в прошлое.</span>
+                <p class="field-group date-exit">
+                  <label class="search-form-text">Дата выезда:</label>
 
-              </p>
-              <span class="date-calendar-text date-calendar-text-one">Мы не можем отправить вас в прошлое.</span>
-              <p class="field-group date-exit">
-                <label class="search-form-text" for="text">Дата выезда:</label>
-                <input class="date-calendar" type="text" name="text" value="1 сентября 2023">
-                <svg class="date-calendar-icon" width="16" height="15" viewBox="0 0 16 15" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M5.75 10C6.05 10 6.25 9.8 6.25 9.5C6.25 9.2 6.05 9 5.75 9C5.45 9 5.25 9.2 5.25 9.5C5.25 9.8 5.45 10 5.75 10Z"
-                    fill="black" />
-                  <path
-                    d="M15 2H13V0H12V2H4V0H3V2H1C0.4 2 0 2.4 0 3V14C0 14.5 0.4 15 1 15H15C15.5 15 16 14.5 16 14V3C16 2.4 15.5 2 15 2ZM15 14H1V7H15V14ZM1 6V3H3V5H4V3H12V5H13V3H15V6H1Z"
-                    fill="black" />
-                  <path d="M8 10C8.3 10 8.5 9.8 8.5 9.5C8.5 9.2 8.3 9 8 9C7.7 9 7.5 9.2 7.5 9.5C7.5 9.8 7.7 10 8 10Z"
-                    fill="black" />
-                  <path
-                    d="M10.25 10C10.55 10 10.75 9.8 10.75 9.5C10.75 9.2 10.55 9 10.25 9C9.95 9 9.75 9.2 9.75 9.5C9.75 9.8 9.95 10 10.25 10Z"
-                    fill="black" />
-                  <path
-                    d="M5.75 11C5.45 11 5.25 11.2 5.25 11.5C5.25 11.8 5.45 12 5.75 12C6.05 12 6.25 11.8 6.25 11.5C6.25 11.2 6.05 11 5.75 11Z"
-                    fill="black" />
-                  <path d="M3.5 10C3.8 10 4 9.8 4 9.5C4 9.2 3.8 9 3.5 9C3.2 9 3 9.2 3 9.5C3 9.8 3.2 10 3.5 10Z"
-                    fill="black" />
-                  <path d="M3.5 11C3.2 11 3 11.2 3 11.5C3 11.8 3.2 12 3.5 12C3.8 12 4 11.8 4 11.5C4 11.2 3.8 11 3.5 11Z"
-                    fill="black" />
-                  <path
-                    d="M8 11C7.7 11 7.5 11.2 7.5 11.5C7.5 11.8 7.7 12 8 12C8.3 12 8.5 11.8 8.5 11.5C8.5 11.2 8.3 11 8 11Z"
-                    fill="black" />
-                  <path
-                    d="M10.25 11C9.95 11 9.75 11.2 9.75 11.5C9.75 11.8 9.95 12 10.25 12C10.55 12 10.75 11.8 10.75 11.5C10.75 11.2 10.55 11 10.25 11Z"
-                    fill="black" />
-                  <path
-                    d="M12.5 10C12.8 10 13 9.8 13 9.5C13 9.2 12.8 9 12.5 9C12.2 9 12 9.2 12 9.5C12 9.8 12.2 10 12.5 10Z"
-                    fill="black" />
-                  <path
-                    d="M12.5 11C12.2 11 12 11.2 12 11.5C12 11.8 12.2 12 12.5 12C12.8 12 13 11.8 13 11.5C13 11.2 12.8 11 12.5 11Z"
-                    fill="black" />
-                </svg>
+                  <input class="date-calendar" type="text" name="text" placeholder="1 сентября 2023">
 
-              </p>
-              <span class="date-calendar-text">На эти даты есть свободные номера. Пока есть.</span>
-              <div class="search-form-guest">
-                <label class="search-form-text">Взрослые:</label>
-                <input class="search-form-guest-field" type="text" value="2">
-                <label class="search-form-text search-form-text-children">Дети:</label>
-                <div class="search-form-guest-children">
-                <svg class="children-icon" width="2" height="12" viewBox="0 0 2 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H2V2H0V0ZM2 12H0V3H2V12Z" fill="white" />
-                </svg>
+                  <svg class="date-calendar-icon icon-two" width="16" height="15" viewBox="0 0 16 15" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M5.75 10C6.05 10 6.25 9.8 6.25 9.5C6.25 9.2 6.05 9 5.75 9C5.45 9 5.25 9.2 5.25 9.5C5.25 9.8 5.45 10 5.75 10Z"
+                      fill="black" />
+                    <path
+                      d="M15 2H13V0H12V2H4V0H3V2H1C0.4 2 0 2.4 0 3V14C0 14.5 0.4 15 1 15H15C15.5 15 16 14.5 16 14V3C16 2.4 15.5 2 15 2ZM15 14H1V7H15V14ZM1 6V3H3V5H4V3H12V5H13V3H15V6H1Z"
+                      fill="black" />
+                    <path d="M8 10C8.3 10 8.5 9.8 8.5 9.5C8.5 9.2 8.3 9 8 9C7.7 9 7.5 9.2 7.5 9.5C7.5 9.8 7.7 10 8 10Z"
+                      fill="black" />
+                    <path
+                      d="M10.25 10C10.55 10 10.75 9.8 10.75 9.5C10.75 9.2 10.55 9 10.25 9C9.95 9 9.75 9.2 9.75 9.5C9.75 9.8 9.95 10 10.25 10Z"
+                      fill="black" />
+                    <path
+                      d="M5.75 11C5.45 11 5.25 11.2 5.25 11.5C5.25 11.8 5.45 12 5.75 12C6.05 12 6.25 11.8 6.25 11.5C6.25 11.2 6.05 11 5.75 11Z"
+                      fill="black" />
+                    <path d="M3.5 10C3.8 10 4 9.8 4 9.5C4 9.2 3.8 9 3.5 9C3.2 9 3 9.2 3 9.5C3 9.8 3.2 10 3.5 10Z"
+                      fill="black" />
+                    <path
+                      d="M3.5 11C3.2 11 3 11.2 3 11.5C3 11.8 3.2 12 3.5 12C3.8 12 4 11.8 4 11.5C4 11.2 3.8 11 3.5 11Z"
+                      fill="black" />
+                    <path
+                      d="M8 11C7.7 11 7.5 11.2 7.5 11.5C7.5 11.8 7.7 12 8 12C8.3 12 8.5 11.8 8.5 11.5C8.5 11.2 8.3 11 8 11Z"
+                      fill="black" />
+                    <path
+                      d="M10.25 11C9.95 11 9.75 11.2 9.75 11.5C9.75 11.8 9.95 12 10.25 12C10.55 12 10.75 11.8 10.75 11.5C10.75 11.2 10.55 11 10.25 11Z"
+                      fill="black" />
+                    <path
+                      d="M12.5 10C12.8 10 13 9.8 13 9.5C13 9.2 12.8 9 12.5 9C12.2 9 12 9.2 12 9.5C12 9.8 12.2 10 12.5 10Z"
+                      fill="black" />
+                    <path
+                      d="M12.5 11C12.2 11 12 11.2 12 11.5C12 11.8 12.2 12 12.5 12C12.8 12 13 11.8 13 11.5C13 11.2 12.8 11 12.5 11Z"
+                      fill="black" />
+                  </svg>
+
+                </p>
+                <span class="date-calendar-text">На эти даты есть свободные номера. Пока есть.</span>
+                <div class="search-form-guest">
+                  <div class="search-container">
+                    <label class="search-form-text">Взрослые:</label>
+                    <div class="guest-field">
+                      <button class="modal-min" type="button">
+                        <span class="modal-min-icon">
+                          <svg width="14" height="7" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0L0 2L14 2V0L0 0Z" />
+                          </svg>
+                        </span>
+                      </button>
+                      <input class="search-form-guest-field" type="text" value="2">
+                      <button class="modal-max" type="button">
+                        <span class="modal-max-icon">
+                          <svg width="14" height="14" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z" />
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="search-form-guest-children">
+                    <div class="search-wrapper">
+                      <label class="search-form-text search-form-text-children">
+                        Дети:
+                      </label>
+                      <div class="popup-container">
+                        <a href="#" class="popup-link">
+                          <svg class="children-icon" width="2" height="12" viewBox="0 0 2 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H2V2H0V0ZM2 12H0V3H2V12Z"
+                              fill="white" />
+                          </svg>
+                        </a>
+                        <div class="popup-text-container">
+                          <p class="popup-text">
+                            Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6
+                            лет
+                            размещаются бесплатно.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="guest-field">
+                      <button class="modal-min" type="button">
+                        <span class="modal-min-icon">
+                          <svg width="14" height="7" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0L0 2L14 2V0L0 0Z" />
+                          </svg>
+                        </span>
+                      </button>
+                      <input class="search-form-guest-field" type="text" value="2">
+                      <button class="modal-max" type="button">
+                        <span class="modal-max-icon">
+                          <svg width="14" height="14" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 9H11V3H9V9H3V11H9V17H11V11H17V9Z" />
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
                 </div>
-                <input class="search-form-guest-field" type="text" value="2">
-              </div>
-              </p>
-              <div class="buttons">
-                <input class="button button-search-found" type="submit" value="Найти">
-              </div>
-            </form>
-          </section>
+                <div class="button-found">
+                  <input class="button button-search-found" type="submit" value="Найти">
+                </div>
+                <p></p>
+              </form>
+            </section>
+          </div>
         </div>
       </div>
-    </body>
+      <script src="./script/script.js"></script>
+      </div>
+  </body>
 
-  </div>
+
 
 </html>
