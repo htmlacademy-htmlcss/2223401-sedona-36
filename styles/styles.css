@@ -1431,7 +1431,7 @@ body {
   border: none;
   color: #ffffff;
   padding: 18px 77px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -1452,7 +1452,7 @@ body {
 }
 
 .search-form-text {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -1675,7 +1675,7 @@ body {
 
 .date-calendar[type="text"],
 .search-form-guest-field[type="text"] {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -1684,7 +1684,7 @@ body {
 
 .date-calendar-text {
   display: block;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
