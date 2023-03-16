@@ -302,7 +302,9 @@ body {
   line-height: 21px;
   margin: 0;
 }
-
+.services-description {
+  margin-top: 32px;
+}
 .newsletter-description {
   width: 469px;
   margin: 0 auto 53px;
@@ -334,7 +336,7 @@ body {
   color: #FFFFFF;
 }
 
-#newsletter-email {
+.newsletter-field {
   border-style: none;
   width: 452px;
   font-family: "PT Sans", sans-serif;
@@ -395,12 +397,27 @@ body {
 .services-item:nth-child(2n+2) {
   background-color: inherit;
 }
-
+.services-item-icon-house {
+  background-image: url("../image/decoration/housing.svg");
+  background-repeat: no-repeat;
+  background-position: top 79px right 161px;
+}
+.services-item-icon-eat {
+  background-image: url("../image/decoration/eat.svg");
+  background-repeat: no-repeat;
+  background-position: top 79px right 161px;
+}
+.services-item-icon-souvenirs {
+  background-image: url("../image/decoration/souvenirs.svg");
+  background-repeat: no-repeat;
+  background-position: top 79px right 161px;
+}
 .services-title {
-  margin-bottom: 33px;
+  margin-top: 102px;
 }
 
 .newsletter {
+  background-color: #756157;
   background-image: url("../image/decoration/canion.jpg");
   background-repeat: no-repeat;
   background-position: center 0;
@@ -509,11 +526,13 @@ body {
   padding-left: 36px;
 }
 
-.control:hover {
+.control:hover .control-mark{
   opacity: 0.6;
 }
 
-.control:focus {
+.control-input:focus + .control-mark {
+  outline: 3px solid #83B3D3;
+  border-radius: 4px;
   opacity: none;
 }
 
